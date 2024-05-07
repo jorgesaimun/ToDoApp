@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:layout_margin="20dp"
     android:layout_height="match_parent">
 
     <EditText
         android:id="@+id/newTaskId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@null"
-        android:hint="New Task"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
-
+        android:hint="Enter New Task"
+        android:padding="16dp" />
     <Button
         android:id="@+id/saveId"
         android:layout_width="wrap_content"
